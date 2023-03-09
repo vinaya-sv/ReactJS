@@ -1,0 +1,34 @@
+#editor{
+    background-color: rgb(182, 215, 214);
+    width:99%;
+    height: 200px;
+    overflow-y:scroll;
+    resize:vertical;
+}
+#preview{
+    background-color: #b6d7d6;
+    margin:1%;
+    margin-bottom: 1%;
+    width:98%;
+    height:98%;
+    resize:vertical;
+}
+#outer1,#outer2{
+    background-color:rgb(182, 215, 214) ;
+    margin: auto;
+    margin-top: 3%;
+    width:40%;
+    height:auto;
+    box-shadow: 0px 10px 10px #648584;
+}
+#outer2{
+    background-color:rgb(182, 215, 214) ;
+    width:50%;
+}
+#heading{
+    height:30px;
+    width:100%;
+    background-color: rgb(124, 173, 171);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}

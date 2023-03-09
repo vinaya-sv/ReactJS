@@ -1,0 +1,52 @@
+#quote-box{
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 13%;
+}
+#box{
+    background-color:rgb(231, 234, 232);
+    margin:0 auto;
+    margin-top:13%;
+    border-radius: 5px;
+}
+#textbox{
+    width:95%;
+    margin:auto;  
+    margin-bottom: 5%;
+    padding-top: 2%; 
+}
+#buttons{
+    height:85px;
+    width:80%;
+    margin:auto;
+}
+#text{
+    font-size: 25pt;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+    margin:4%;
+}
+#author{
+    font-size: 15pt;
+    text-align: right;
+    margin: 0;
+    padding-right: 5%;
+}
+#new-quote{
+    height:50%;
+    width:30%;
+    float:right;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    margin:1%;
+    border:none;
+    color:white;
+    border-radius:5px;
+}
+#tweet-quote{
+    height:50%;
+    width:10%;
+    margin:1%;
+    color:white;
+    border:none;
+    border-radius:5px;
+}

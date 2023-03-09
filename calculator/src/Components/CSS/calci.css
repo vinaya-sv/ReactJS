@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(189, 189, 189);
+}
+#outer{
+    background-color: rgb(12, 12, 12);
+    height:450px;
+    width:400px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#formula{
+    background-color:rgb(12, 12, 12);
+    text-align:right;
+    font-size:16pt;
+    color:rgb(245, 164, 52);
+    width:95%;
+    height:7%;
+    margin:auto;
+    margin-top:2.5%;
+}
+#display{
+    background-color: rgb(12, 12, 12);
+    text-align: right;
+    font-size:19pt;
+    color:white;
+    font-weight: bold;
+    width:95%;
+    height:10%;
+    margin:auto;
+    margin-top:1%;
+}
+/* #ac,#divide,#multiply,#seven,#eight,#nine,#subtract,#four,#five,#six,#add,#one,#two,#three,#zero,#decimal,#equal{
+    background-color: #636363;
+    color:rgb(255, 255, 255);
+    font-size: 18pt;
+    width:23%;
+    height:14%;
+    margin-left:1%;
+    margin-top:1.5%;
+    display: inline-block; 
+    text-align:center;
+} */
+#clear:hover,#divide:hover{
+    background-color: rgb(20, 99, 13);
+}
+#formula,#display,#ac,#seven, #four,#one,#zero{
+    margin-left: 2.3%;
+}
+#zero{
+    width:47%;
+}
+#subtract,#multiply,#add{
+    width:23%;
+}
